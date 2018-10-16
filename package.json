@@ -1,0 +1,15 @@
+{
+  "name": "development-environment",
+  "version": "1.0.0",
+  "description": "A simple development environment for writing a web page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "development",
+    "environment"
+  ],
+  "author": "Kevin McCartney <hello@kevinmccartney.is>",
+  "license": "MIT"
+}
