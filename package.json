@@ -4,12 +4,17 @@
   "description": "A simple development environment for writing a web page.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
   },
   "keywords": [
     "development",
     "environment"
   ],
   "author": "Kevin McCartney <hello@kevinmccartney.is>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  }
 }
